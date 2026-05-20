@@ -1,0 +1,10 @@
+Le RAG (Retrieval Augmented Generation) est une technique d'intelligence artificielle qui combine la recherche de documents avec la génération de texte.
+
+Le processus RAG fonctionne en trois étapes principales :
+1. Ingestion : les documents sont découpés en morceaux et vectorisés
+2. Retrieval : quand l'utilisateur pose une question, on cherche les passages les plus pertinents
+3. Generation : on envoie la question et les passages à un LLM comme GPT pour générer une réponse
+
+LangChain est un framework Python qui facilite la création d'applications RAG.
+ChromaDB est une base de données vectorielle qui stocke les embeddings des documents.
+OpenAI fournit les embeddings et le modèle GPT pour générer les réponses.
